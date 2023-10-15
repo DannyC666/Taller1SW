@@ -1,0 +1,80 @@
+
+h1 {
+    padding-top: 40px;
+    text-align: center; /* Centra el h1 horizontalmente */
+
+}
+#page-title{
+    padding-bottom: 40px;
+    color: rgba(26, 133, 200, 0.91);
+}
+
+#form-title{
+    padding-top: 20px;
+    color: rgba(26, 133, 200, 0.91);
+}
+.page-container{
+    max-width: 100% !important;
+}
+
+.mainContainer{
+    height: 100%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+    height: 100%;/* Ancho del contenedor, ajusta según tus necesidades */
+    padding: 10px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 16px;
+}
+
+
+.second-container {
+    background-color: rgba(26, 133, 200, 0.21);
+    padding-bottom: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    gap: 10px;
+    width: 100%; /* Ancho del contenedor, ajusta según tus necesidades */
+    padding: 10px;
+}
+
+.title-second-container {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.description-about-me {
+    font-size: 16px;
+    margin: 0px 100px 35px 100px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.form{
+    margin: 20px 150px 20px 150px;
+}
+
